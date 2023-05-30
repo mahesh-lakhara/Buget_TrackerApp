@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_btnsubmit"
+        android:title="sumrray"
+        android:icon="@drawable/baseline_account_balance"/>
+
+    <item
+        android:id="@+id/ic_traction"
+        android:title="transction"
+        android:icon="@drawable/baseline_notes_24" />
+
+    <item
+        android:id="@+id/ic_Add"
+        android:title="Add"
+        android:icon="@drawable/baseline_add"/>
+
+</menu>
