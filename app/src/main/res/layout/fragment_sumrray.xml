@@ -19,10 +19,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TOTAL BALANCE"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="TOTAL "
         android:textColor="#FFFFFF" />
 
     <TextView
+        android:id="@+id/txtsum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_5sdp"
@@ -45,6 +48,7 @@
             app:cardElevation="@dimen/_8sdp">
 
             <TextView
+                android:id="@+id/txtin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_8sdp"
@@ -77,6 +81,7 @@
             app:cardElevation="@dimen/_8sdp">
 
             <TextView
+                android:id="@+id/txtex"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_8sdp"
@@ -100,11 +105,12 @@
     </LinearLayout>
 
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rcvtranslist"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1" />
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="400dp" />
+
 
 
 
